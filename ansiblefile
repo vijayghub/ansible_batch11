@@ -1,0 +1,21 @@
+nstall httpd
+2. start httpd
+3. enable on reboot httpd server
+4. clone/pull static website from git and deploy
+
+apache
+----------------------------------------------
+for httpd/apace deployment dir is /var/www/html/
+port number for apache is 80 (default)
+conigurtion file: /etc/httpd/conf/httpd.conf
+----------------------------------------------
+ubuntu its apache2
+---------------------------------------------
+
+ansible-vault
+--------------
+sudo ansible-vault encrypt app_vars.yml
+sudo ansible-vault edit app_vars.yml
+sudo ansible-vault view app_vars.yml
+sudo ansible-vault decrypt app_vars.yml
+-----------------------------------
